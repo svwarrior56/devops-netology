@@ -60,8 +60,22 @@
 
 ![png](./scr/Screenshot_1.png)
 
+![png](./scr/Screenshot_2.png)
 
+![png](./scr/Screenshot_3.png)
 
+![png](./scr/Screenshot_4.png)
 
+![png](./scr/Screenshot_5.png)
 
+![png](./scr/Screenshot_6.png)
 
+![png](./scr/Screenshot_7.png)
+
+![png](./scr/Screenshot_8.png)
+
+![png](./scr/Screenshot_9.png)
+
+![png](./scr/Screenshot_10.png)
+
+![png](./scr/Screenshot_11.png)
