@@ -80,7 +80,35 @@
 
 ![png](./scr/Screenshot_11.png)
 
-Создана директория terraform и в ней файл .gitignore. В соотвестии с содержанием файла гит будет игнорировать файлы конфигурации, переменных, состояний, расширений конфигураций, логов, а также настроек Cli для terraform.
+Создана директория terraform и в ней файл .gitignore. В соответствие с содержанием файла гит будет игнорировать файлы:
+
+\*\*/.terraform/*
+
+*.tfstate
+
+\*.tfstate.*
+
+crash.log
+
+crash.*.log
+
+*.tfvars
+
+*.tfvars.json
+
+override.tf
+
+override.tf.json
+
+*_override.tf
+
+*_override.tf.json
+
+.terraform.tfstate.lock.info
+
+.terraformrc
+
+terraform.rc
 
 ![png](./scr/Screenshot_12.png)
 
