@@ -79,3 +79,13 @@
 ![png](./scr/Screenshot_10.png)
 
 ![png](./scr/Screenshot_11.png)
+
+Создана директория terraform и в ней файл .gitignore. В соотвестии с содержанием файла гит будет игнорировать файлы конфигурации, переменных, состояний, расширений конфигураций, логов, а также настроек Cli для terraform.
+
+![png](./scr/Screenshot_12.png)
+
+![png](./scr/Screenshot_13.png)
+
+![png](./scr/Screenshot_14.png)
+
+![png](./scr/Screenshot_15.png)
