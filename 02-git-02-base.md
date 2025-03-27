@@ -3,6 +3,11 @@
 Т.к. при сдаче предыдущего задания скриншоты выполнения вызывали вопросы, я беру на себя смелость публиковать их внутри задач, сразу после указаний.  
 Думается, так читать их будет проще и удобнее.
 
+Ссылки на репо:
+[github.](https://github.com/svwarrior56/devops-netology)
+[gitlab](https://gitlab.com/devops-netology4694812/devops-netology)
+[bitbucket](https://bitbucket.org/sv-space/devops-netology/src/main/)
+
 # Задание 1. Знакомимся с GitLab и Bitbucket
 Из-за сложности доступа к Bitbucket в работе достаточно использовать два репозитория: GitHub и GitLab.
 
