@@ -22,15 +22,15 @@ done
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/1.png)
+![png](./scr/02-git-03-branching/1.PNG)
 
 **Шаг 2.** Создадим коммит с описанием prepare for merge and rebase и отправим его в ветку main.
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/2.png)
+![png](./scr/02-git-03-branching/2.PNG)
 
-![png](./scr/02-git-03-branching/3.png)
+![png](./scr/02-git-03-branching/3.PNG)
 
 **Подготовка файла merge.sh**
 
@@ -54,9 +54,9 @@ done
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/4.png)
+![png](./scr/02-git-03-branching/4.PNG)
 
-![png](./scr/02-git-03-branching/5.png)
+![png](./scr/02-git-03-branching/5.PNG)
 
 **Шаг 4.** Разработчик подумал и решил внести ещё одно изменение в merge.sh:
 
@@ -79,7 +79,7 @@ done
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/6.png)
+![png](./scr/02-git-03-branching/6.PNG)
 
 **Изменим main**
 
@@ -105,9 +105,9 @@ echo "====="
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/7.png)
+![png](./scr/02-git-03-branching/7.PNG)
 
-![png](./scr/02-git-03-branching/8.png)
+![png](./scr/02-git-03-branching/8.PNG)
 
 **Подготовка файла rebase.sh**
 
@@ -119,7 +119,7 @@ echo "====="
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/9.png)
+![png](./scr/02-git-03-branching/9.PNG)
 
 **Шаг 2.** Создадим ветку `git-rebase`, основываясь на текущем коммите. 
 
@@ -144,14 +144,14 @@ echo "====="
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/10.png)
+![png](./scr/02-git-03-branching/10.PNG)
 .
 
 **Шаг 5.** И сделаем ещё один коммит `git-rebase 2` с пушем, заменив `echo "Parameter: $param"` на `echo "Next parameter: $param"`.
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/11.png)
+![png](./scr/02-git-03-branching/11.PNG)
 
 #### Промежуточный итог  
 
@@ -166,7 +166,7 @@ echo "====="
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/12.png)
+![png](./scr/02-git-03-branching/12.PNG)
 
 #### Merge
 
@@ -191,11 +191,11 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/13.png)
+![png](./scr/02-git-03-branching/13.PNG)
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/14.png)
+![png](./scr/02-git-03-branching/14.PNG)
 
 #### Rebase
 
@@ -219,13 +219,13 @@ Could not apply dc4688f... git 2.3 rebase @ instead *
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/15.png)
+![png](./scr/02-git-03-branching/15.PNG)
 
 Если посмотреть содержимое файла `rebase.sh`, то увидим метки, оставленные Git для решения конфликта:
 
 ##### Решение.
 
-![png](./scr/02-git-03-branching/16.png)
+![png](./scr/02-git-03-branching/16.PNG)
 
 ```bash
 cat rebase.sh
@@ -249,7 +249,7 @@ echo "\$@ Parameter #$count = $param"
 ```
 ##### Решение.
 
-![png](./scr/02-git-03-branching/17.png)
+![png](./scr/02-git-03-branching/17.PNG)
 
 ##### Решение.
 
@@ -284,9 +284,9 @@ Successfully rebased and updated refs/heads/git-rebase
 ```
 ##### Решение.
 
-![png](./scr/02-git-03-branching/19.png)
+![png](./scr/02-git-03-branching/19.PNG)
 
-![png](./scr/02-git-03-branching/20.png)
+![png](./scr/02-git-03-branching/20.PNG)
 
 **Шаг 7.** И попробуем выполнить `git push` либо `git push -u origin git-rebase`, чтобы точно указать, что и куда мы хотим запушить. 
 
@@ -322,7 +322,7 @@ Branch 'git-rebase' set up to track remote branch 'git-rebase' from 'origin'.
 ```
 ##### Решение.
 
-![png](./scr/02-git-03-branching/21.png)
+![png](./scr/02-git-03-branching/21.PNG)
 
 **Шаг 9**. Теперь можно смержить ветку `git-rebase` в main без конфликтов и без дополнительного мерж-комита простой перемоткой: 
 
@@ -339,9 +339,9 @@ Fast-forward
 ```
 ##### Решение.
 
-![png](./scr/02-git-03-branching/22.png)
+![png](./scr/02-git-03-branching/22.PNG)
 
-![png](./scr/02-git-03-branching/23.png)
+![png](./scr/02-git-03-branching/23.PNG)
 
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории.*
 
